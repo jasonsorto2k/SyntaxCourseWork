@@ -1,8 +1,14 @@
-package REPLITZ;
+package class9;
 
-public class zeroOneFive {
+public class arraysDemo6 {
+
     public static void main(String[] args) {
 
 
     }
 }
+
+
+
+
+
