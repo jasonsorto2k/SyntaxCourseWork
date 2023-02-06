@@ -1,0 +1,21 @@
+1) Write a java class that will have a constructor: one with parameters and second without any parameters.
+Create a separate Test class where you will execute both of the constructors 1 by 1.
+
+2)Write a java Class Students that have a constructor which takes students name and 3 subject grades.
+Inside your class also have a method to Calculate Average Grade. Test Student class for 5 different students with different marks.
+Your program should print an average mark of each students name.
+NOTE: please use different names for instance and local variables.
+
+3) Write a java class that have 4 constructors with 4 different access levels of constructors (private,public,default,protected)
+and create 4 objects of this class: 1 - inside same class; 2 - from outside the class; 3 - from different class inside different package
+and observe result.
+
+4)Write program that have static constructor and observe result.
+
+5) Write a Student class  that have instance variables name and address.
+Create a constructor that will initialize those variables.
+Print name & address of given student using displayInfo method.
+
+6) Write Book class that will have instance variables and 2 Constructors. While creating an object make sure:
+Instance variables are being initialized
+Both Constructors are being executed

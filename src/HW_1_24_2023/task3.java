@@ -1,5 +1,7 @@
 package HW_1_24_2023;
 
+import java.util.Arrays;
+
 public class task3 {
 
     public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class task3 {
         System.out.println(strArr[0].trim());
         System.out.println(strArr[1].trim());
         System.out.println(strArr[2].trim());
+
+        System.out.println(str.split("[?]").length);
 
 
 

@@ -4,14 +4,19 @@ public class task4 {
 
     public static void main(String[] args) {
 
-        // 4) How would you reverse a String word by word? for example
-        //        // input=> This is sentence I want to reverse
-        //        // output=> sihT si ecnetnes i tnaw ot esrever
+        int [] array1 = {10,20,30,45,50};
 
-        StringBuilder str = new StringBuilder("This is the sentence I want to reverse");
-        System.out.println(str.reverse());
+        int sum = 0;
+
+        for(int number:array1){
+            sum+=number;
+        }
+        System.out.println(sum);
+
+
+
+
     }
 
-
-
 }
+

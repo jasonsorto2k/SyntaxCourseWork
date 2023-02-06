@@ -9,27 +9,7 @@ public class task2 {
 
         String random = "123456asdfghj!@#$%^&";
 
-        int count = 0;
-        int countnum = 0;
-        System.out.println(random.replaceAll("[^A-Za-z0-9]", "").length());
-
-
-        for (int i = 0; i < random.length(); i++) {
-            if (Character.isAlphabetic(random.charAt(i))) {
-                count++;
-            }
-
-
-        }
-        System.out.println("The Alphabetic characters in the String are " + count);
-
-        for (int i = 0; i < random.length(); i++) {
-            if (Character.isDigit(random.charAt(i))) {
-                countnum++;
-            }
-
-        }
-        System.out.println("The numeric characters in String  are " + countnum);
+        System.out.println(random.replace("[^A-Za-z0-9]", "").length());
     }
 }
 
