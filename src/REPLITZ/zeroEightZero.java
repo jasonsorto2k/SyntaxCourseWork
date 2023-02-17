@@ -10,16 +10,18 @@ public class zeroEightZero {
                 {1.2,3.1,4,1.6}
         };
 
+        int factor = 2;
+
 
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length+1; j++) {
-                for (int k = 0; k < a.length; k++) {
-
-                    System.out.print(a[i][j]+" ");
+                System.out.print(a[i][j]*2+" ");
 
 
                 }
-                System.out.println();
+            System.out.println();
+
+
 
             }
 
@@ -29,4 +31,4 @@ public class zeroEightZero {
     }
 
 
-}
+

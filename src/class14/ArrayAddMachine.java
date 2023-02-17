@@ -4,7 +4,8 @@ public class ArrayAddMachine {
 
         static void addArrayElementsMachine ( int[] arr){
             int sum = 0;
-            for (int number : arr) {
+            for (int i = 0, arrLength = arr.length; i < arrLength; i++) {
+                int number = arr[i];
                 sum += number;
             }
             System.out.println(sum);

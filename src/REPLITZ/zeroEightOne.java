@@ -1,6 +1,6 @@
-package class9;
+package REPLITZ;
 
-public class arraysDemo6 {
+public class zeroEightOne {
 
     public static void main(String[] args) {
 
