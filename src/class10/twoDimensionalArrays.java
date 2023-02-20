@@ -18,7 +18,7 @@ public class twoDimensionalArrays {
         thomsonTrain[1]=cabin1;
         thomsonTrain[2]=cabin2;
 
-        System.out.println(thomsonTrain[1][2]);
+        System.out.println(thomsonTrain[2][3]);
         
 
 
